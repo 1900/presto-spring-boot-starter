@@ -27,12 +27,12 @@ hdfs.url=hdfs://hadoop.namenode:8020
 
 ```javascript
 @Autowired
-@Qualifier("phoenixJdbcTemplate")
-JdbcTemplate phoenixJdbcTemplate;
+@Qualifier("prestoJdbcTemplate")
+JdbcTemplate prestoJdbcTemplate;
 ```
 
-## use hive in spring boot 
+## use presto in spring boot
 
 ```javascript
-phoenixJdbcTemplate
+prestoJdbcTemplate
 ```
